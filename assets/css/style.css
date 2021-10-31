@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{color: grey;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif
+}
+article{
+  margin-top: 10px;
+}
+ul{line-height: 1.3em;
+  color: initial;
+  padding-left: 25px ;
+}
+h3,h4,h5{color: black;}
+.user-photo{
+  
+  display: block;
+  width: 80px;
+  height: 80px;
+  
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: top;
+  
+  border-radius: 50%;
+}
+.user-name{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.main-section{
+  min-width: 400px;
+  max-width: 100%;
+  width: 70%; 
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.sub-section{
+  width: 90%;
+  margin: 0 auto;
+}
+.user-info{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.7em;
+  position: relative;
+  
+}
+.user-info::before{
+  content: "";
+  display: block;
+  width:100%;
+  position: absolute;
+  background-color: grey;
+  height: 3px;
+  top: 0;
+} 
+.user-info::after{
+  content: "";
+  display: block;
+  width:100%;
+  position: absolute;
+  background-color: grey;
+  height: 2px;
+  bottom: 0;
+} 
+.icons{
+  border:1px solid black;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.user-skills-info{
+  line-height: 1.5em;
+  
+}
+.bold-words{
+  font-weight: bold;
+color: black;}
+.header-info{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  font-weight: 900;
+  color: black;
+}
+.header-info::after{
+  content: "";
+  display: block;
+  width:100%;
+  position: absolute;
+  height: 2px;
+  background-color: grey;
+  bottom: 20%; 
+}
+ .header-info::before{
+  content: "";
+  display: block;
+  width:100%;
+  position: absolute;
+  background-color: grey;
+  height: 4px;
+  top: 20%;
+} 
+
+ 
+.theme-header{
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+.user-contacts{
+  text-align: center;
+}
